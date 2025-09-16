@@ -1,0 +1,5 @@
+recursive-include ai_inventory_fc *.json *.py *.txt *.md
+recursive-include ai_inventory_fc/public *
+recursive-include ai_inventory_fc/templates *
+recursive-include ai_inventory_fc/config *
+recursive-include ai_inventory_fc/translations *

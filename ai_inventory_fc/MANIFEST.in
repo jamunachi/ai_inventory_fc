@@ -1,5 +1,0 @@
-graft ai_inventory_fc
-graft ai_inventory_fc/public
-graft ai_inventory_fc/config
-graft ai_inventory_fc/ai_inventory
-global-include *.json *.md *.py
