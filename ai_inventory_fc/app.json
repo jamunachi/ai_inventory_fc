@@ -1,0 +1,15 @@
+{
+  "app_name": "ai_inventory_fc",
+  "app_title": "AI Inventory for ERPNext (Frappe Cloud)",
+  "app_publisher": "Your Name",
+  "app_description": "Lightweight AI inventory & sales forecast app compatible with ERPNext and deployable on Frappe Cloud.",
+  "app_email": "you@example.com",
+  "app_license": "MIT",
+  "app_version": "0.1.0",
+  "app_logo_url": "",
+  "hide_in_installer": 0,
+  "developer_mode": 0,
+  "required_apps": [
+    "erpnext"
+  ]
+}

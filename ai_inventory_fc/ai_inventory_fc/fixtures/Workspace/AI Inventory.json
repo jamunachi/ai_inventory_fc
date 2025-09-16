@@ -1,0 +1,8 @@
+{
+  "doctype": "Workspace",
+  "name": "AI Inventory",
+  "title": "AI Inventory",
+  "for_user": "",
+  "content": "{\"type\": \"header\", \"data\": {\"text\": \"AI Inventory\"}}",
+  "public": 1
+}

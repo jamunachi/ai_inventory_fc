@@ -1,0 +1,52 @@
+{
+  "doctype": "DocType",
+  "name": "AI Forecast Result",
+  "module": "AI Inventory",
+  "custom": 0,
+  "is_tree": 0,
+  "allow_rename": 0,
+  "permissions": [
+    {
+      "role": "System Manager",
+      "read": 1,
+      "write": 1,
+      "create": 1,
+      "delete": 1
+    }
+  ],
+  "fields": [
+    {
+      "fieldname": "company",
+      "label": "Company",
+      "fieldtype": "Link",
+      "options": "Company",
+      "reqd": 1
+    },
+    {
+      "fieldname": "item_code",
+      "label": "Item",
+      "fieldtype": "Link",
+      "options": "Item",
+      "reqd": 1
+    },
+    {
+      "fieldname": "horizon_days",
+      "label": "Horizon (Days)",
+      "fieldtype": "Int",
+      "default": 14
+    },
+    {
+      "fieldname": "predicted_qty",
+      "label": "Predicted Qty",
+      "fieldtype": "Float",
+      "reqd": 1
+    }
+  ],
+  "actions": [],
+  "allow_import": 1,
+  "engine": "InnoDB",
+  "editable_grid": 1,
+  "track_changes": 1,
+  "track_seen": 1,
+  "autoname": "hash"
+}
